@@ -23,11 +23,11 @@
 , xorg
 }:
 let
-  id = "123219506";
+  id = "154454223";
 in
 stdenvNoCC.mkDerivation rec {
   pname = "multiviewer-for-f1";
-  version = "1.26.2";
+  version = "1.31.4";
 
   src = fetchurl {
     url = "https://releases.multiviewer.dev/download/${id}/multiviewer-for-f1_${version}_amd64.deb";
